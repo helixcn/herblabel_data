@@ -1,7 +1,7 @@
 ######## Data source for the herblabel package ################
 ######## if any update is needed, edit the following files and regenerate the rda files.
 
-setwd("C:\\Jinlong\\packages\\herblabel_data")
+setwd("C:\\Jinlong\\github packages\\herblabel_data")
 library(openxlsx)
 rm(list = ls())
 spfrps        <- read.xlsx("spfrps.xlsx")
